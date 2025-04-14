@@ -1,32 +1,45 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
+# Compiled object files
 *.o
 *.obj
 
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
+# Compiled dynamic libraries
 *.so
 *.dylib
 *.dll
 
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
+# Compiled static libraries
 *.a
 *.lib
 
-# Executables
+# Executable files
 *.exe
 *.out
 *.app
+
+# Debug files
+*.dSYM/
+*.pdb
+*.idb
+
+# Other files
+*.log
+*.tmp
+*.temp
+
+# IDE specific files
+.idea/
+*.code-workspace
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Other build system files
+build/
+Debug/
+Release/
+
+# Ignore all test_cases directories
+**/test_cases/
